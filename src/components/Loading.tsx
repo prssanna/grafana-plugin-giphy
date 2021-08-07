@@ -1,8 +1,6 @@
 import React from 'react';
 import { stylesFactory, LoadingPlaceholder } from '@grafana/ui';
 import { css } from 'emotion';
-
-// Read about interface
 interface Props {
   text: string;
 }

@@ -16,12 +16,14 @@
     "@grafana/data": "latest",
     "@grafana/toolkit": "latest",
     "@grafana/ui": "latest",
-    "emotion": "10.0.27"
+    "@types/enzyme": "^3.10.9",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "emotion": "10.0.27",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2"
   },
   "engines": {
     "node": ">=14"
-  },
-  "dependencies": {
-    "@testing-library/react": "^12.0.0"
   }
 }
