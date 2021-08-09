@@ -8,5 +8,9 @@ export const plugin = new PanelPlugin<SearchOptions>(App).setPanelOptions(builde
     name: 'Search Limit',
     description: 'Limit search results',
     defaultValue: 50,
+    settings: {
+      max: 50,
+      min: 1,
+    },
   });
 });

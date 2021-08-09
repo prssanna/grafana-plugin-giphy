@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "grafana-giphy-panel",
+  "name": "Giphy Search",
   "id": "prssanna-grafana-giphy-panel",
   "info": {
     "description": "Shows giphy images searched by keyword",
