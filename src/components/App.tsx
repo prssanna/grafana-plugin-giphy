@@ -20,10 +20,10 @@ export const App: React.FC<Props> = ({ options, data, width, height }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const searchGifs = (text: string) => {
-    setError(null);
     // only search when text has changed
     text = text.trim().toLowerCase();
     if (searchTerm !== text) {
+      setError(null);
       setSearchTerm(text);
       setResults([]);
       setLoadingState(true);
@@ -34,7 +34,7 @@ export const App: React.FC<Props> = ({ options, data, width, height }) => {
         })
         .catch(err => {
           console.warn(err);
-          setResults([]);
+          setSearchTerm('');
           setLoadingState(false);
           setError(err.message);
         });
