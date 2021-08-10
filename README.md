@@ -2,7 +2,8 @@
 
 [![Build](https://github.com/grafana/grafana-starter-panel/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-panel/actions?query=workflow%3A%22CI%22)
 
-A simple Grafana panel plugiin which allows you to search for images across Giphy.
+A simple Grafana panel plugin which allows you to search for images across Giphy.
+
 <img width="1104" alt="Screenshot 2021-08-09 at 12 12 54 PM" src="https://user-images.githubusercontent.com/19775888/128672456-32551804-5890-483f-86fa-2d9f30950ff6.png">
 
 ## How to Run
