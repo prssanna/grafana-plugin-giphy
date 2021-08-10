@@ -42,7 +42,7 @@ A simple Grafana panel plugiin which allows you to search for images across Giph
    ```
 6. Run
    ```bash
-    docker run -d -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins --name=grafana-test grafana/grafana:7.0.0
+    docker run -d -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins --name=grafana grafana/grafana:7.0.0
    ```
 7. Open [http://localhost/:3000](http://localhost:3000)
 8. Login with username as **admin** and password as **admin**
