@@ -43,7 +43,7 @@ A simple Grafana panel plugin which allows you to search for images across Giphy
    ```
 6. Run
    ```bash
-    docker run -d -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins --name=grafana grafana/grafana:7.0.0
+    docker run -d -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins --name=grafana-new -e "GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=prssanna-grafana-giphy-panel" grafana/grafana:7.0.0
    ```
 7. Open [http://localhost/:3000](http://localhost:3000)
 8. Login with username as **admin** and password as **admin**
